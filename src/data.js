@@ -45,7 +45,7 @@ export const projects = [
       title: "Best Buy",
       description:
         "I had multiple positions within the store, ranging from sales, to customer service and some management as well. The skills I've developed include team management, conflict resolution, cash management and sales",
-      year: "2021-current",
+      year: "2021-Current",
     },
     {
       title: "CAF reserve force",

@@ -9,7 +9,7 @@ import Contact from "./components/contact";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 bg-black body-font">
       <Navbar />
       <About />
       <Projects />
