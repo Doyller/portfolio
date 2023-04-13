@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "UI/UX design",
       description:
         "This was one of my initial portfolio prototypes using Figma, this was done in accordance with my UI/UX design course",
-      image: "prototype portfolio.png",
+      image: "portfoliov2.png",
       link: "https://www.figma.com/file/kNxF9IFSatdIy5Ft4wwDvr/Portfolio?node-id=0%3A1&t=Ngykf3FLXX52KIvD-1",
     },
     {
