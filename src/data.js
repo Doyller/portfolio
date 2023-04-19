@@ -4,7 +4,7 @@ export const projects = [
       subtitle: "Html/CSS",
       description:
         "This was our midterm project for semester 2, Billy Bobs tech shop incorporated HTML,CSS, Javascript and Dom elements to make a mock tech sales website.",
-      image: "billybobsv1.png",
+      image: "images/billybobsv1.png",
       link: "https://github.com/rledrewkeyin/semester2-sprint1-MIR.git",
     },
     {
@@ -12,7 +12,7 @@ export const projects = [
       subtitle: "UI/UX design",
       description:
         "This was one of my initial portfolio prototypes using Figma, this was done in accordance with my UI/UX design course",
-      image: "portfoliov2.png",
+      image: "images/portfoliov2.png",
       link: "https://www.figma.com/file/kNxF9IFSatdIy5Ft4wwDvr/Portfolio?node-id=0%3A1&t=Ngykf3FLXX52KIvD-1",
     },
     {
@@ -20,7 +20,7 @@ export const projects = [
       subtitle: "Html/CSS/JavaScript",
       description:
         "The Dogs.API project was created as an assessment, this project incorporated JS, HTML, CSS and the usages of API",
-      image: "Dogs API.png",
+      image: "images/Dogs API.png",
       link: "https://github.com/Doyller/dogsapi.git",
     },
     {
@@ -28,7 +28,7 @@ export const projects = [
       subtitle: "Html,CSS,JS,React",
       description:
         "Our Final project for semester two. We took our ideas from our V1 version and recreated our vision in React",
-      image: "billybobsv1.png",
+      image: "images/billybobsv2.png",
       link: "https://github.com/Doyller/billyapp.git",
     },
   ];

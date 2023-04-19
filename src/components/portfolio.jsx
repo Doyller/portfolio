@@ -9,7 +9,7 @@ export default function Projects(){
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">Some projects I've worked on</h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">As of right now, most of these projects were done in accordance to assignments for grading.<br></br> Hover over the images to see more</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">As of right now, most of these projects were done in accordance to assignments for grading.<br></br> Hover over the images to see more<br></br>Click the images to follow links to GitHub and Figma</p>
             </div>
             <div className="flex flex-wrap -m-4">
             {projects.map((project) => (

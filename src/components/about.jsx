@@ -35,8 +35,8 @@ export default function About() {
           </div>
         </div>
         <img
-          className="object-cover object-center rounded border border-white"
-          src= "MicrosoftTeams-image.png"
+          className="rounded border border-white"
+          src= "images/MicrosoftTeams-image.png"
         ></img>
         </div>
     </section>

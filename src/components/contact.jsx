@@ -32,15 +32,12 @@ export default function Contact() {
                 height="100%"
                 title="map"
                 className="absolute inset-0"
-                frameBorder={0}
-                marginHeight={0}
-                marginWidth={0}
                 style={{ filter: "opacity(1)" }}
                 src="https://www.google.com/maps/embed/v1/place?q=St.+John's,+NL,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               />
-              <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+              <div className="bg-gray-900 relative flex flex-wrap py-6 rounded">
                 <div className="lg:w-1/2 px-6">
-                  <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                  <h2 className=" text-white">
                     Located in
                   </h2>
                   <p className="mt-1 text-white">
@@ -49,22 +46,25 @@ export default function Contact() {
                   </p>
                 </div>
                 <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                  <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                  <h2 className=" text-white">
                     EMAIL
                   </h2>
-                  <a className="text-white leading-relaxed">
+                  <p className="text-white leading-relaxed">
                     doyleisaac0@gmail.com or
                     isaac.doyle@keyin.com
-                  </a>
-                  <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                  </p>
+                  <h2 className=" text-white mt-4">
                     PHONE
                   </h2>
                   <p className="leading-relaxed text-white">709-689-5468</p>
+                  <h2 className=" text-white mt-4">
+                    GitHub
+                  </h2>
+                  <p className="leading-relaxed text-white">You can find me as Doyller</p>
                 </div>
               </div>
             </div>
             <form
-              netlify
               name="contact"
               onSubmit={handleSubmit}
               className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
@@ -75,7 +75,7 @@ export default function Contact() {
                 If you have any questions or feel like I'm a good candidate to fill a position, reach out
               </p>
               <div className="relative mb-4 text-center">
-                <label htmlFor="name" className="leading-7 text-sm text-white">
+                <label htmlFor="name" className="  text-white">
                   Name
                 </label>
                 <input
@@ -87,7 +87,7 @@ export default function Contact() {
                 />
               </div>
               <div className="relative mb-4 text-center">
-                <label htmlFor="email" className="leading-7 text-sm text-white">
+                <label htmlFor="email" className=" text-white">
                   Email
                 </label>
                 <input
@@ -101,7 +101,7 @@ export default function Contact() {
               <div className="relative mb-4 text-center">
                 <label
                   htmlFor="message"
-                  className="leading-7 text-sm text-white">
+                  className=" text-white">
                   Message
                 </label>
                 <textarea
